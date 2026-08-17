@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+<form>
+
+    <fieldset autocomplete="off">
+        <legend>Register Form</legend>
+        <div>
+            <label>First Name :</label>
+            <input type="text" name="firstName" autofocus
+            required placeholder="Enter your first name">
+        </div>
+
+        <div>
+            <label>Last Name :</label>
+            <input type="text" name="lastName"
+            placeholder="Enter your ladtName name">
+        </div>
+
+        <div>
+            <label>Email :</label>
+            <input type="email" name="email"
+            placeholder="Enter your email">
+        </div>
+
+        <div>
+         <label>Phone Number :</label>
+          <input type="text"
+           id="phone" name="phone" value="01"
+           maxlength="11"
+           pattern="01(0|1|2|5)[0-9]{8}"
+           title="Enter a valid phone number">
+        </div>
+
+        <div>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+        </div>
+
+         <div>
+            <label>Age</label>
+            <input type="number" name="age" min="5" max="50">
+        </div>
+
+        <div>
+            <input type="date" name="userDate">
+        </div>
+        <input type="color">
+        <input type="range" name="range" min="200" max="400" value="200">
+
+        <div>
+            <label>Courses</label>
+            <input type="checkbox" name="courses[]" value="Php">
+            <label>Php</label>
+            <input type="checkbox" name="courses[]" value="C++">
+            <label>C++</label>
+            <input type="checkbox" name="courses[]" value="C">
+            <label>C</label>
+
+        </div>
+        
+        
+        <label for="track-choice">Choose your Track:</label>
+        <input list="tracks" id="track-choice" name="track">
+
+        <datalist id="tracks">
+          <option value="AI"></option>
+          <option value="IT"></option>
+          <option value="Web"></option>
+          <option value="Mobile"></option>
+         <option value="Cyber Security"></option>
+        </datalist>
+
+        <div>
+            <label for="">Password :</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+          <label>File :</label>
+          <input type="file" name="image" accept=".png">
+        </div>
+
+        <div>
+
+            <textarea name="comment" placeholder="Enter your comment"
+            cols="50" rows="4"></textarea>
+        </div>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Data">
+    </fieldset>
+
+</form>
+
+</body>
+
+</html>
