@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+}
+
+body{
+    background-color:beige;
+}
+
+.section{
+
+    width: 80%;
+    margin: 10% auto;
+    color: beige;
+
+}
+
+.div-text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color:goldenrod;
+    display: flex;
+    border: 2%;
+}
+
+
+
+.text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background-color:goldenrod;
+    color: white;
+    text-align: center;
+    padding:10% 10% 15% 10% ;
+    border: 2%;
+
+
+}
+
+.h1{
+    
+}
+
+.form{
+    text-align:center;
+}
+.contact-form{
+margin:auto;
+width: 100%;
+text-align: center;
+margin-bottom: 10%;
+
+}
+
+.form-input {
+    
+    width: 50%;
+    background-color:olivedrab;
+    padding: 2%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 4%;
+    border: none;
+    background-color:azure;
+}
+
+textarea {
+    height: 20%;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 3% 12%;
+    border: none;
+    border-radius: 40%;
+    background-color:goldenrod;
+    color: white;
+}
