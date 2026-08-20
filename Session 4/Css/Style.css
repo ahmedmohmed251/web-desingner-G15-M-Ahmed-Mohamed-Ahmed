@@ -1,0 +1,245 @@
+/* Reset Style */
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+   
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Global style */
+
+
+
+.div-text{
+    height: 100%;
+    display: inline-block;
+    width: 49%;
+}
+.form{
+    height: 320px;;
+    vertical-align:top ;
+    width: 19% ;
+    margin: 0% 0% 0% 5%;
+    margin-top: 12%;
+    background-color: white;
+    padding: 3% 2%;
+    display:inline-block
+
+}
+.h3{
+    width:100% ;
+    color: black;
+    font-size: 18px;
+    padding:0% 0% 10% 0%;
+}
+
+.t-light{
+    color: lightgrey;
+    margin:2% 12% ;
+}
+
+.text-light{
+    color: lightgrey;
+}
+
+.bg-light{
+    background-color: lightgrey;
+}
+
+.display{
+
+display: inline-block;}
+
+
+.p-text{
+    color: rgb(113, 113, 113);
+    padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* custom style */
+
+
+.section-1{
+    height: 600px;
+   background-image: url(../img/img.jpg);
+   background-repeat: no-repeat;
+   background-color: rebeccapurple;
+   background-position:center
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.248);
+    height: 100%;
+   
+}
+
+.h1-text{
+    margin: 15% 0% 0% 12%;
+    color: orange;
+    font-size: 70px ;
+}
+.span-h{
+    
+    color: white;
+    display: inline-block;
+
+}
+
+.span-f{
+    color: orange;
+}
+
+.t-white{
+    text-align: left;
+    margin: 0% 12% ;
+ color: white;
+ font-size: 40px ;
+}
+
+.hr-white{
+    border: 2px solid white;
+    width: 8%;
+    margin: 5% 12% ;
+
+}
+
+.button-1{
+    color: white;
+    margin:8% 12%;
+    font-size: 22px;
+    padding: 0.5% 2%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid;
+}
+
+.input{
+    width: 95%;
+    padding: 5% 0%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.335);
+}
+.button-3{
+    width: 95%;
+    height: 41px;
+    color: white;
+    border: none;
+    margin: 30% 0% 0% 0%;
+    background-color: orange;
+}
+.section-2{
+    display: inline-block;
+    margin: 1% 6%;
+
+}
+
+.h3-text{
+    color: black;
+}
+
+.container-2{
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.icon{
+   display: inline-block;
+    color: lightgray;
+    padding:0% 0% 0% 16%;
+    width: 49%;
+    font-size: 35px;
+
+}
+.hr-div{
+    border: 5px solid black;
+ width: 100%;
+}
+
+.taps{
+    
+    background-color: lightgray;
+
+
+}
+.taps-2{
+    background-color: black;
+    display: inline-block;
+    border:2% solid white;
+    margin: 10% 0% 12% 6%;
+    width: 12%;
+    color: white;
+    text-align: center;
+}
+
+.tap-1{
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    padding: 30%;
+    font-size: 30px;
+
+}
+
+.tap-22{
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    width: 100%;
+    padding: 30%;
+    font-size: 29px;
+}
+
+.div-30{
+    width: 45%;
+    padding: 2% 0% 12% 10%;
+    vertical-align:top;
+    margin:13% 0% 0% 0% ;
+
+
+}
+
+.h3-div{
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+ .button-2{
+    color:white;
+    margin:12% 0% 0% 0%;
+    font-size: 20px;
+    padding: 2% 2%;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius:30px ;
+ }
+
+.display-z{
+    display: inline-block;
+    width: 30%;
+    height: 300px;;
+    background-image: url(../img/img.1.png);
+    transform:scaleY(-1);
+    background-repeat: no-repeat;
+    background-size:contain;
+    vertical-align: top;
+    margin: 10% 0% 0% 3%;
+}
+
+

@@ -83,7 +83,7 @@ button {
     margin: auto;
     padding: 3% 12%;
     border: none;
-    border-radius: 40%;
+    border-radius: 40px;
     background-color:goldenrod;
     color: white;
 }
