@@ -1,47 +1,87 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
 }
 
-.cards {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+.A1{
+    width: 25%;
+    margin: auto;
+    padding-top: 5%;
 }
-
-.card-1 {
-    width: 30%;
-    height: 207px;
+.Aa1{
+    width: 80%;
+    padding: 5%;
+    margin-bottom: 10%;
     position: relative;
-    text-align: center;
-    background-color: teal;
-    box-shadow: 0 0 3px 2px lightgray;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 2px lightgray;
 }
 
-.t1 {
-    width: 100%;
-    height: 100%;
-    padding-top: 50px;
-}
-
-.info {
-    width: 100%;
-    height: 100%;
-    padding-top: 51px;
-    text-align: center;
-    background-color: white;
+.Aa1::before{
+    content: "";
     position: absolute;
     top: 0;
-    left: 0;
-    transition: 1s;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    background-color: teal;
+    border-radius: 0 0 0 40px;
+    transition: 0.5s;
+}
+.Aa1:hover::before{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
 }
 
-.info:hover {
-    transform: translate(-100%, 100%);
+.i-con{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     z-index: 2;
+}
+
+.Aa1 h2,
+.Aa1 p{
+    position: relative;
+    transition: 0.5s;
+}
+
+.Aa1:hover h2,
+.Aa1:hover p{
+    color: white;
+}
+
+.a-za{
+    width: 80%;
+    padding: 5%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid teal;
+    box-shadow: 0px 0px 2px 2px lightgray;
+    transition: 0.5s;
+}
+
+.a-za::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    background-color: teal;
+    transition: 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.a-za:hover::after{
+    transform: scaleX(1);
 }
