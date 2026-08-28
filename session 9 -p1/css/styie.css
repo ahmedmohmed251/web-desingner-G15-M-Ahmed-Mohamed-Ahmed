@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.first-team-img{
+    margin-top: 15px;
+}
+
+.product-img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.footer-links h6{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-links a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-links a:hover{
+    color: white;
+}
